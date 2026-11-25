@@ -1,0 +1,849 @@
+<ROOT>
+		<INFORMACION>		
+			<NUMERO_REFERENCIA/>
+		</INFORMACION>
+	<DISTRIBUCION>
+		<LOCAL>
+			<FORMATO>NombreFichero.pdf</FORMATO>
+			<BLOQUEAR_IMPRESION>N</BLOQUEAR_IMPRESION>
+		</LOCAL>
+		<EMAIL>
+			<EMAIL_TO>Destinatario</EMAIL_TO>
+			<EMAIL_CC>En_Copia</EMAIL_CC>
+			<EMAIL_BCC>En_Copia_Oculta</EMAIL_BCC>
+			<EMAIL_FROM>Emisor</EMAIL_FROM>
+			<EMAIL_ASUNTO>Asunto</EMAIL_ASUNTO>
+			<EMAIL_BODY>Cuerpo de correo en modo texto si procede</EMAIL_BODY>
+			<EMAIL_RENAME>Fichero_Renombrado_Si_Procede.pdf</EMAIL_RENAME>
+		</EMAIL>
+		<GESTOR_DOCUMENTAL>
+			<DOCUMENTS>
+				<DOCUMENT>
+					<GD_USER>Usuario</GD_USER>
+					<GD_DOCUMENT_INFO>
+						<GD_DOCUMENT_REPOSITORY>Repositorio_Documental</GD_DOCUMENT_REPOSITORY>
+						<GD_DOCUMENT_PROFILE>Profile_del_país</GD_DOCUMENT_PROFILE>
+						<GD_FILENAME>NombreFichero.pdf</GD_FILENAME>
+						<GD_DOCUMENT_TYPE>TipoDocumental</GD_DOCUMENT_TYPE>
+					</GD_DOCUMENT_INFO>
+					<GD_FOLDER_MTDT>
+						<GD_FOLDER_MTDT_ATTR>
+							<GD_FOLDER_MTDT_ATTR_NAME>Nombre_Atributo_Folder_1</GD_FOLDER_MTDT_ATTR_NAME>
+							<GD_FOLDER_MTDT_ATTR_TYPE>Tipo_Atributo_Folder_1</GD_FOLDER_MTDT_ATTR_TYPE>
+							<GD_FOLDER_MTDT_ATTR_VALUE>Valor_Atributo_Folder_1</GD_FOLDER_MTDT_ATTR_VALUE>
+							<GD_FOLDER_MTDT_ATTR_FORMAT/>
+						</GD_FOLDER_MTDT_ATTR>
+						<GD_FOLDER_MTDT_ATTR>
+							<GD_FOLDER_MTDT_ATTR_NAME>Nombre_Atributo_Folder_2</GD_FOLDER_MTDT_ATTR_NAME>
+							<GD_FOLDER_MTDT_ATTR_TYPE>Tipo_Atributo_Folder_2</GD_FOLDER_MTDT_ATTR_TYPE>
+							<GD_FOLDER_MTDT_ATTR_VALUE>Valor_Atributo_Folder_2</GD_FOLDER_MTDT_ATTR_VALUE>
+							<GD_FOLDER_MTDT_ATTR_FORMAT/>
+						</GD_FOLDER_MTDT_ATTR>
+						<GD_FOLDER_MTDT_ATTR>
+							<GD_FOLDER_MTDT_ATTR_NAME>Nombre_Atributo_Folder_N</GD_FOLDER_MTDT_ATTR_NAME>
+							<GD_FOLDER_MTDT_ATTR_TYPE>Tipo_Atributo_Folder_N</GD_FOLDER_MTDT_ATTR_TYPE>
+							<GD_FOLDER_MTDT_ATTR_VALUE>Valor_Atributo_Folder_N</GD_FOLDER_MTDT_ATTR_VALUE>
+							<GD_FOLDER_MTDT_ATTR_FORMAT/>
+						</GD_FOLDER_MTDT_ATTR>
+					</GD_FOLDER_MTDT>
+					<GD_DOC_MTDT>							
+						<GD_DOC_MTDT_ATTR>
+							<GD_DOC_MTDT_ATTR_NAME>Nombre_Atributo_Document_1</GD_DOC_MTDT_ATTR_NAME>
+							<GD_DOC_MTDT_ATTR_TYPE>Tipo_Atributo_Document_1</GD_DOC_MTDT_ATTR_TYPE>
+							<GD_DOC_MTDT_ATTR_VALUE>Valor_Atributo_Document_1</GD_DOC_MTDT_ATTR_VALUE>
+							<GD_DOC_MTDT_ATTR_FORMAT/>
+						</GD_DOC_MTDT_ATTR>
+						<GD_DOC_MTDT_ATTR>
+							<GD_DOC_MTDT_ATTR_NAME>Nombre_Atributo_Document_2</GD_DOC_MTDT_ATTR_NAME>
+							<GD_DOC_MTDT_ATTR_TYPE>Tipo_Atributo_Document_2</GD_DOC_MTDT_ATTR_TYPE>
+							<GD_DOC_MTDT_ATTR_VALUE>Valor_Atributo_Document_2</GD_DOC_MTDT_ATTR_VALUE>
+							<GD_DOC_MTDT_ATTR_FORMAT/>
+						</GD_DOC_MTDT_ATTR>
+						<GD_DOC_MTDT_ATTR>
+							<GD_DOC_MTDT_ATTR_NAME>Nombre_Atributo_Document_N</GD_DOC_MTDT_ATTR_NAME>
+							<GD_DOC_MTDT_ATTR_TYPE>Tipo_Atributo_Document_N</GD_DOC_MTDT_ATTR_TYPE>
+							<GD_DOC_MTDT_ATTR_VALUE>Valor_Atributo_Document_N</GD_DOC_MTDT_ATTR_VALUE>
+							<GD_DOC_MTDT_ATTR_FORMAT/>
+						</GD_DOC_MTDT_ATTR>
+					</GD_DOC_MTDT>
+				</DOCUMENT>
+			</DOCUMENTS>
+		</GESTOR_DOCUMENTAL>
+		<WEBPLUS>
+			<WEBPLUS_EXPIRY>Expiración en días (Numérico)</WEBPLUS_EXPIRY>
+			<WEBPLUS_EMAIL_FROM>Emisor</WEBPLUS_EMAIL_FROM>
+			<WEBPLUS_EMAIL_TO>Destinatario</WEBPLUS_EMAIL_TO>
+			<WEBPLUS_EMAIL_CC>En_Copia</WEBPLUS_EMAIL_CC>
+			<WEBPLUS_EMAIL_BCC>En_Copia_Oculta</WEBPLUS_EMAIL_BCC>
+			<WEBPLUS_EMAIL_ASUNTO>Asunto_URL_Privada</WEBPLUS_EMAIL_ASUNTO>
+			<WEBPLUS_SEND_PASSWORD_MODE>NONE</WEBPLUS_SEND_PASSWORD_MODE>
+			<!-- De momento este valor es OK -->
+			<WEBPLUS_EMAIL_BODY>Cuerpo del correo en modo texto Si Procede. El literal %link% en caso de utilizar esta opción es obligatorio.</WEBPLUS_EMAIL_BODY>
+			<WEBPLUS_PASSWORD>Password de la URL Privada</WEBPLUS_PASSWORD>
+			<WEBPLUS_RENAME>Fichero_Generado_Renombrado.pdf</WEBPLUS_RENAME>
+			<WEBPLUS_DOCUMENTOS>
+				<WEBPLUS_DOCUMENTO>
+					<WEBPLUS_DOCUMENTO_TYPE>NAS</WEBPLUS_DOCUMENTO_TYPE>
+					<!--Ejemplo tipo NAS-->
+					<WEBPLUS_DOCUMENTO_DOCNAME>NombreAMostrarEnFrontalNAS.pdf.pdf</WEBPLUS_DOCUMENTO_DOCNAME>
+					<WEBPLUS_DOCUMENTO_PATH>SubCarpeta/Prueba.pdf</WEBPLUS_DOCUMENTO_PATH>
+				</WEBPLUS_DOCUMENTO>
+				<WEBPLUS_DOCUMENTO>
+					<WEBPLUS_DOCUMENTO_TYPE>DCTM</WEBPLUS_DOCUMENTO_TYPE>
+					<!--Ejemplo tipo DCTM-->
+					<WEBPLUS_DOCUMENTO_DOCNAME>NombreAMostrarEnFrontalDCTM.pdf</WEBPLUS_DOCUMENTO_DOCNAME>
+					<WEBPLUS_DOCUMENTUM_ID>Identificador DCTM</WEBPLUS_DOCUMENTUM_ID>
+				</WEBPLUS_DOCUMENTO>
+			</WEBPLUS_DOCUMENTOS>
+		</WEBPLUS>
+	</DISTRIBUCION>
+		<COMPOSICION>
+			<LANGUAGE>ES</LANGUAGE>
+			<PAIS>HONDURAS</PAIS>
+			<CARTAS_SINIESTROS>
+				<CR10_CABECERA>
+					<CR10-C1_LOGO>HND_LOGO_MAPFRE</CR10-C1_LOGO>
+					<CR10-C2_CIUDAD>Ciudad,</CR10-C2_CIUDAD>
+					<CR10-C3_FECHA>25 de Abril de 2024</CR10-C3_FECHA>
+				</CR10_CABECERA>
+
+				<CR20_LATERAL>
+					<CR20-C1_CODIGO_DOCUMENTO>Código</CR20-C1_CODIGO_DOCUMENTO>
+					<CR20-C2_DESCRIPCION_DOCUMENTO>Descripcion</CR20-C2_DESCRIPCION_DOCUMENTO>
+				</CR20_LATERAL>
+
+				<CR25_CONTENIDO>
+					<CR25-C1_TEXTO><![CDATA[MAPFRE PANAMÁ le informa que, para continuar el trámite de su reclamación, es necesario que usted lleve su vehículo ACURA con númeRo de placa PERICO a cualquiera de nuestros centros de inspección. En el siguiente enlace a nuestro]]></CR25-C1_TEXTO>
+					<CR25-C2_ENLACE_LITERAL>Listado de Talleres</CR25-C2_ENLACE_LITERAL>
+					<CR25-C3_ENLACE_VALOR>www.mapfre.com</CR25-C3_ENLACE_VALOR>
+					<CR25-C4_TEXTO_CONTINUACION><![CDATA[<p>En caso de que usted ya haya cumplido con este requerimiento,le agradecemos omitir esta comunicación y ponerse en contacto con nuestro equipo de atención a la mator brevedad posible.</p><p>Recuerde que puede comunicarse con el tramitador encargado del caso al siguiente correo <span style="color:rgb(30,144,255);"><u>moises.rovira@mapfre.com.pa</u></span> o con nuestro equipo de atención al cliente, a través de nuestra línea 399-1056 o correo electrónico <span style="color:rgb(30,144,255);"><u>reclamos.autos@mapfre.com.pa.</u></span></p><p></p><p>MAPFRE te cuida</p><p>"Regulado y Supervisado por la Superintendencia de Seguros y Reaseguros de Panamá."</p>]]></CR25-C4_TEXTO_CONTINUACION>
+				</CR25_CONTENIDO>
+
+				<!-- <CR30_PIE>
+					<CR30-C1_IMAGEN_1>HND_ICONO_OFICINA_DIGITAL_MAPFRE</CR30-C1_IMAGEN_1>
+					<CR30-C2_IMAGEN_1_URL>https://app.mapfre.com.hn/odm</CR30-C2_IMAGEN_1_URL>
+					<CR30-C3_TEXTO_MARKETING><![CDATA[<p>Gestiona tus solicitudes de forma ágil y sencilla.</p>]]></CR30-C3_TEXTO_MARKETING>
+					<CR30-C4_TEXTO_CONTACTO><![CDATA[<p>Contáctanos las 24 horas del día los 365 días del año.</p>]]></CR30-C4_TEXTO_CONTACTO>
+					<CR30-C5_IMAGEN_2>HND_ICONO_SI24</CR30-C5_IMAGEN_2>
+					<CR30-C6_IMAGEN_2_URL>https://www.mapfre.com.hn/si-24-2/</CR30-C6_IMAGEN_2_URL>
+					<CR30-C7_IMAGEN_3>HND_ICONO_TELEFONO_ROJO</CR30-C7_IMAGEN_3>
+					<CR30-C8_IMAGEN_3_URL>www.imagen3.com</CR30-C8_IMAGEN_3_URL>
+					<CR30-C9_IMAGEN_4>HND_ICONO_WHATSAPP_ROJO</CR30-C9_IMAGEN_4>
+					<CR30-C10_IMAGEN_4_URL>https://api.whatsapp.com/send?phone=22627373</CR30-C10_IMAGEN_4_URL>
+					<CR30-C11_IMAGEN_5>HND_ICONO_MOVIL_ROJO</CR30-C11_IMAGEN_5>
+					<CR30-C12_IMAGEN_5_URL>www.imagen5.com</CR30-C12_IMAGEN_5_URL>
+					<CR30-C13_TEXTO_PROTECCION><![CDATA[<p>Te recordamos que puedes consultar toda la información de protección de datos ingresando a nuestra página web: <span style="color:rgb(216,30,5);"><b>http://www.mapfre.com/hn/</b></span> seleccionando "Política de Privacidad".</p>]]></CR30-C13_TEXTO_PROTECCION>
+				</CR30_PIE> -->
+				
+				<CR35_PIE_IMAGENES>
+					<CR35-C1_TEXTO><![CDATA[“Regulado y Supervisado por la Superintendencia de Seguros y Reaseguros de Panamá”]]></CR35-C1_TEXTO>
+					<CR35-C2_DIR><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>MAPFRE | PANAMÁ</b><p><b>Ave. La Rotonda y Blv. Costa del Este Edificio GMT, Ciudad de Panamá.</b></p><p><b>Telefono: (507) 378-3900</b></span></p>]]></CR35-C2_DIR>
+					<CR35-C3_LOGO_RED_SOCIAL_1>PAN_COTIZACION_INSTAGRAM</CR35-C3_LOGO_RED_SOCIAL_1>
+					<CR35-C4_TEXTO_RED_SOCIAL_1>@mapfre_pa</CR35-C4_TEXTO_RED_SOCIAL_1>
+					<CR35-C5_URL_RED_SOCIAL_1>https://www.instagram.com/mapfre.pa/</CR35-C5_URL_RED_SOCIAL_1>
+					<CR35-C6_LOGO_RED_SOCIAL_2>PAN_COTIZACION_FACEBOOK</CR35-C6_LOGO_RED_SOCIAL_2>
+					<CR35-C7_TEXTO_RED_SOCIAL_2>MAPFRE PANAMA</CR35-C7_TEXTO_RED_SOCIAL_2>
+					<CR35-C8_URL_RED_SOCIAL_2>https://www.facebook.com/MAPFRE.PA</CR35-C8_URL_RED_SOCIAL_2>
+					<CR35-C9_TEXTO_CONTACTA><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>Recuerda que estamos para atenderte a través de la OFICINA VIRTUAL en </b></span><span style="color:rgb(255,0,0);font-size:8pt"><b>www.mapfre.com.pa</b></span>]]></CR35-C9_TEXTO_CONTACTA>
+					<CR35-C10_IMAGEN_1>PAN_COTIZACION_CONSULTAS</CR35-C10_IMAGEN_1>
+					<CR35-C11_IMAGEN_1_URL>https://www.mapfre.com.pa/si-24-2/</CR35-C11_IMAGEN_1_URL>
+					<CR35-C12_IMAGEN_2>PAN_COTIZACION_TELEFONO</CR35-C12_IMAGEN_2>
+					<CR35-C13_IMAGEN_2_URL>www.mapfre.com.pa</CR35-C13_IMAGEN_2_URL>
+					<CR35-C14_LITERAL_PAGINA>Página</CR35-C14_LITERAL_PAGINA>
+					<CR35-C15_LITERAL_DE>de</CR35-C15_LITERAL_DE>
+				</CR35_PIE_IMAGENES>
+				
+				
+
+				<CR40_SALUDO>
+					<CR40-C1_TRATAMIENTO>Señor</CR40-C1_TRATAMIENTO>
+					<CR40-C2_DATOS>
+						<CR40-C2_DATO>
+							<CR40-C2_VALOR>Juan</CR40-C2_VALOR>
+						</CR40-C2_DATO>
+						<CR40-C2_DATO>
+							<CR40-C2_VALOR>Angeles Martin</CR40-C2_VALOR>
+						</CR40-C2_DATO>
+					</CR40-C2_DATOS>
+				</CR40_SALUDO>
+
+				<CR50_DATOS_CARTA>
+					<CR50-C1_DATOS_CARTA>
+						<CR50_TITULO>Referencia Responsable</CR50_TITULO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Póliza:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>5874695874</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Producto:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>Condiciones Particulares</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Oficina:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>5245</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Agente:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>Angeles</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Asegurado:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>Juan</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+						<CR50-C2_DATO>
+							<CR50-C2_LITERAL>Asunto:</CR50-C2_LITERAL>
+							<CR50-C2_VALOR>Renovacion</CR50-C2_VALOR>
+						</CR50-C2_DATO>
+					</CR50-C1_DATOS_CARTA>
+				</CR50_DATOS_CARTA>
+
+				<CR60_CUERPO_CARTA>
+					<CR60-C1_TEXTO_CUERPO><![CDATA[<p>Estimado Cliente,</p>
+					<p>Texto 1</p>
+					<p>Texto 2</p>
+					<p>Texto 3</p>
+					<p>Para cualquier consulta, no dude en ponerse en contacto con nuestro centro de atención telefónica al cliente.</p>
+					<p>Reciba un cordial saludo</p>
+					<p>MAPFRE país</p>]]></CR60-C1_TEXTO_CUERPO>
+				</CR60_CUERPO_CARTA>
+
+				<CR70_FIRMA_CARTA>
+					<CR70-C1_IMAGEN_FIRMA>HND_IMAGEN_FIRMA</CR70-C1_IMAGEN_FIRMA>
+					<CR70-C2_NOMBRE_FIRMA>Francisco Jose</CR70-C2_NOMBRE_FIRMA>
+					<CR70-C3_PUESTO_FIRMA>Responsable de departamento</CR70-C3_PUESTO_FIRMA>
+				</CR70_FIRMA_CARTA>
+				
+			</CARTAS_SINIESTROS>
+
+			<CARTAS_FINIQUITO>
+
+				<E50_CABECERA>
+					<E50-C1_LOGO>HND_LOGO_MAPFRE</E50-C1_LOGO>
+				</E50_CABECERA>	
+				
+				<E60_TITULO_DOCUMENTO>
+					<E60-C1_TITULO>DEPARTAMENTO DE RECLAMOS</E60-C1_TITULO>
+					<E60-C2_SUBTITULO>FINIQUITO 316735</E60-C2_SUBTITULO>
+				</E60_TITULO_DOCUMENTO>
+
+				<E70_LATERAL>
+					<E70-C1_CODIGO_DOCUMENTO>Código</E70-C1_CODIGO_DOCUMENTO>
+					<E70-C2_DESCRIPCION_DOCUMENTO>Descripcion</E70-C2_DESCRIPCION_DOCUMENTO>
+				</E70_LATERAL>				
+				             			
+				<E610_DESCRIPTIVO_FINIQUITO>
+					<E610-C1_LIT_FINIQUITO><![CDATA[<p>Por medio de la presente yo, VICTOR ABRAHAM PAZ GONZALEZ residente de Panamá, República de Panamá, autorizo a MAPFRE PANAMA, S.A. para que acredite a la cuenta bancaria número 04-72-01-986207-3, tipo CUENTA DE AHORROS, BANCO GENERAL, S.A., a nombre de VICTOR ABRAHAM PAZ GONZALEZ, la suma de B/. 1,874.98 ** MIL OCHOCIENTOS SETENTA Y CUATRO CON 98/100 ** en concepto del Pago Total y Definitivo por los daños y perjuicios sufridos por mí, a razón del siniestro ocurrido el día 03 de Septiembre del 2021. Dicho pago será acreditado a la cuenta antes detallada en un plazo máximo de 8 días hábiles, luego de recibido el presente finiquito. En caso que no sea efectiva la transferencia, este finiquito no tendrá validez. En virtud de ello, renuncio definitivamente y para siempre a todos y cualesquiera reclamos por responsabilidad civil contractual o extracontractual, demandas, acciones o indemnizaciones o pretensión punitiva a que tenga o pueda llegar a tener derecho en el presente o futuro, en contra de MAPFRE PANAMA, S.A., o contra cualquier otra persona natural o jurídica, por razón o como resultado de dicho siniestro, ni por el tiempo transcurrido para que el reclamo por el mismo fuese finalmente cubierto es, por razón de dichos daños y perjuicios, reclamaciones, demandas, acciones o derechos que, de existir, han sido satisfechos en su totalidad por MAPFRE PANAMA, S.A. a nuestra entera satisfacción en los términos del presente finiquito y a partir de la fecha del mismo.</p>]]></E610-C1_LIT_FINIQUITO>
+				</E610_DESCRIPTIVO_FINIQUITO>					
+
+				<E615_DATOS_GENERALES>
+					<E615-C1_TITULO>DATOS GENERALES</E615-C1_TITULO>
+					<E615-C2_DATO_GENERAL>						
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Póliza:</E615-C2_LITERAL>
+							<E615-C2_VALOR>No. Póliza</E615-C2_VALOR>
+						</E615-C2_DATO>
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Contratante:</E615-C2_LITERAL>
+							<E615-C2_VALOR>Nombre Completo/Razón…</E615-C2_VALOR>
+						</E615-C2_DATO>
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Asegurado:</E615-C2_LITERAL>
+							<E615-C2_VALOR>Nombre Asegurado</E615-C2_VALOR>
+						</E615-C2_DATO>
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Siniestro:</E615-C2_LITERAL>
+							<E615-C2_VALOR>No. Siniestro</E615-C2_VALOR>
+						</E615-C2_DATO>
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Causa:</E615-C2_LITERAL>
+							<E615-C2_VALOR>Causa del siniestro</E615-C2_VALOR>
+						</E615-C2_DATO>
+						<E615-C2_DATO>
+							<E615-C2_LITERAL>Fecha:</E615-C2_LITERAL>
+							<E615-C2_VALOR>Fecha de Ocurrencia</E615-C2_VALOR>
+						</E615-C2_DATO>
+					</E615-C2_DATO_GENERAL>
+				</E615_DATOS_GENERALES>
+				
+				<E620_DATOS_RIESGO>
+					<E620-C1_TITULO>DATOS DEL RIESGO</E620-C1_TITULO>
+					<E620-C2_TABLA_2_COLUMNAS>
+						<E620-C2_DATO>
+							<E620-C2_LITERAL>Dirección:</E620-C2_LITERAL>
+							<E620-C2_VALOR>Dirección (Concatenar País, Estado, Municipio, Localidad, Barriada, Avenida/Calle, Dirección)</E620-C2_VALOR>
+						</E620-C2_DATO>
+					</E620-C2_TABLA_2_COLUMNAS>
+					<E620-C3_TABLA_4_COLUMNAS>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Marca:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Marca</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Color:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Color</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Modelo:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Modelo</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Placa:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Placa</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Tipo de Vehículo:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Tipo de Vehículo</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Serie/Chasis:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Serie/Chasis</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Año:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Año</E620-C3_VALOR>
+						</E620-C3_DATO>
+						<E620-C3_DATO>
+							<E620-C3_LITERAL>Motor:</E620-C3_LITERAL>
+							<E620-C3_VALOR>Motor</E620-C3_VALOR>
+						</E620-C3_DATO>
+					</E620-C3_TABLA_4_COLUMNAS>
+				</E620_DATOS_RIESGO>
+					
+				
+				<E630_RENUNCIA>
+					<E630-C1_RENUNCIA><![CDATA[<p>En virtud de ello, declaro que renuncio definitivamente y para siempre a todos y cualesquiera reclamos por responsabilidad civil contractual o extracontractual, demandas, acciones o indemnizaciones o pretensión punitiva a que tenga o pueda llegar a tener derecho en el presente o futuro, en contra de Razón Social de MAPFRE País, o contra cualquier otra persona natural o jurídica, por razón o como resultado de dicho siniestro, ni por el tiempo transcurrido para que el reclamo por el mismo fuese finalmente cubierto, por razón de dichos daños y perjuicios, reclamaciones, demandas, acciones o derechos que, de existir, han sido satisfechos en su totalidad por Razón Social de MAPFRE País a nuestra entera satisfacción en los términos del presente finiquito y a partir de la fecha del mismo.En fe de lo anterior firmo el presente finiquito en la ciudad de Ciudad, a los DD días del mes de MMM del AAAA.</p>]]></E630-C1_RENUNCIA>
+				</E630_RENUNCIA>  
+
+				<E640_DESPEDIDA>
+					<E640-C1_DESPEDIDA><![CDATA[<p>Atentamente,</p>]]></E640-C1_DESPEDIDA>
+					<E640-C2_DATOS>
+						<E640-C2_DATO>
+							<E640-C2_VALOR>Nombre Completo/Razón Social del Beneficiario de la Orden de Pago</E640-C2_VALOR>
+						</E640-C2_DATO>
+						<E640-C2_DATO>
+							<E640-C2_VALOR>Tipo y Número de Documento</E640-C2_VALOR>
+						</E640-C2_DATO>
+					</E640-C2_DATOS>
+				</E640_DESPEDIDA>
+
+				<E660_FIRMA_CARTA>
+					<E660-C1_IMAGEN_FIRMA>GT_FIRMA_DIRECTOR_OPERACIONES</E660-C1_IMAGEN_FIRMA>
+					<E660-C2_NOMBRE_FIRMA>Francisco Jose</E660-C2_NOMBRE_FIRMA>
+					<E660-C3_PUESTO_FIRMA>Responsable de departamento</E660-C3_PUESTO_FIRMA>
+				</E660_FIRMA_CARTA>
+				
+				<!-- <E650_PIE>
+					<E650-C1_IMAGEN_1>HND_ICONO_OFICINA_DIGITAL_MAPFRE</E650-C1_IMAGEN_1>
+					<E650-C2_IMAGEN_1_URL>https://app.mapfre.com.hn/odm</E650-C2_IMAGEN_1_URL>
+					<E650-C3_TEXTO_MARKETING><![CDATA[<p>Gestiona tus solicitudes de forma ágil y sencilla.</p>]]></E650-C3_TEXTO_MARKETING>
+					<E650-C4_TEXTO_CONTACTO><![CDATA[<p>Contáctanos las 24 horas del día los 365 días del año.</p>]]></E650-C4_TEXTO_CONTACTO>
+					<E650-C5_IMAGEN_2>HND_ICONO_SI24</E650-C5_IMAGEN_2>
+					<E650-C6_IMAGEN_2_URL>https://www.mapfre.com.hn/si-24-2/</E650-C6_IMAGEN_2_URL>
+					<E650-C7_IMAGEN_3>HND_ICONO_TELEFONO_ROJO</E650-C7_IMAGEN_3>
+					<E650-C8_IMAGEN_3_URL>www.imagen3.com</E650-C8_IMAGEN_3_URL>
+					<E650-C9_IMAGEN_4>HND_ICONO_WHATSAPP_ROJO</E650-C9_IMAGEN_4>
+					<E650-C10_IMAGEN_4_URL>https://api.whatsapp.com/send?phone=22627373</E650-C10_IMAGEN_4_URL>
+					<E650-C11_IMAGEN_5>HND_ICONO_MOVIL_ROJO</E650-C11_IMAGEN_5>
+					<E650-C12_IMAGEN_5_URL>www.imagen5.com</E650-C12_IMAGEN_5_URL>
+					<E650-C13_TEXTO_PROTECCION><![CDATA[<p>Te recordamos que puedes consultar toda la información de protección de datos ingresando a nuestra página web: <span style="color:rgb(216,30,5);"><b>http://www.mapfre.com/hn/</b></span> seleccionando "Política de Privacidad".</p>]]></E650-C13_TEXTO_PROTECCION>
+				</E650_PIE> -->
+				
+				<E655_PIE_IMAGENES>
+					<E655-C1_TEXTO><![CDATA[“Regulado y Supervisado por la Superintendencia de Seguros y Reaseguros de Panamá”]]></E655-C1_TEXTO>
+					<E655-C2_DIR><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>MAPFRE | PANAMÁ</b><p><b>Ave. La Rotonda y Blv. Costa del Este Edificio GMT, Ciudad de Panamá.</b></p><p><b>Telefono: (507) 378-3900</b></span></p>]]></E655-C2_DIR>
+					<E655-C3_LOGO_RED_SOCIAL_1>PAN_COTIZACION_INSTAGRAM</E655-C3_LOGO_RED_SOCIAL_1>
+					<E655-C4_TEXTO_RED_SOCIAL_1>@mapfre_pa</E655-C4_TEXTO_RED_SOCIAL_1>
+					<E655-C5_URL_RED_SOCIAL_1>https://www.instagram.com/mapfre.pa/</E655-C5_URL_RED_SOCIAL_1>
+					<E655-C6_LOGO_RED_SOCIAL_2>PAN_COTIZACION_FACEBOOK</E655-C6_LOGO_RED_SOCIAL_2>
+					<E655-C7_TEXTO_RED_SOCIAL_2>MAPFRE PANAMA</E655-C7_TEXTO_RED_SOCIAL_2>
+					<E655-C8_URL_RED_SOCIAL_2>https://www.facebook.com/MAPFRE.PA</E655-C8_URL_RED_SOCIAL_2>
+					<E655-C9_TEXTO_CONTACTA><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>Recuerda que estamos para atenderte a través de la OFICINA VIRTUAL en </b></span><span style="color:rgb(255,0,0);font-size:8pt"><b>www.mapfre.com.pa</b></span>]]></E655-C9_TEXTO_CONTACTA>
+					<E655-C10_IMAGEN_1>PAN_COTIZACION_CONSULTAS</E655-C10_IMAGEN_1>
+					<E655-C11_IMAGEN_1_URL>https://www.mapfre.com.pa/si-24-2/</E655-C11_IMAGEN_1_URL>
+					<E655-C12_IMAGEN_2>PAN_COTIZACION_TELEFONO</E655-C12_IMAGEN_2>
+					<E655-C13_IMAGEN_2_URL>www.mapfre.com.pa</E655-C13_IMAGEN_2_URL>
+					<E655-C14_LITERAL_PAGINA>Página</E655-C14_LITERAL_PAGINA>
+					<E655-C15_LITERAL_DE>de</E655-C15_LITERAL_DE>
+				</E655_PIE_IMAGENES>
+				
+				
+
+			</CARTAS_FINIQUITO>
+
+			<ORDENES_SERVICIO>		
+				
+				<E50_CABECERA>
+					<E50-C1_LOGO>HND_LOGO_MAPFRE</E50-C1_LOGO>
+				</E50_CABECERA>
+				
+				<E60_TITULO_DOCUMENTO>
+					<E60-C1_TITULO>Departamento de Reclamos Automóvil</E60-C1_TITULO>
+					<E60-C2_SUBTITULO>ORDEN Reparación Nº 286585</E60-C2_SUBTITULO>
+				</E60_TITULO_DOCUMENTO>	
+			
+				<E90_LATERAL>
+					<E90-C1_CODIGO_DOCUMENTO>Código</E90-C1_CODIGO_DOCUMENTO>
+					<E90-C2_DESCRIPCION_DOCUMENTO>Descripcion</E90-C2_DESCRIPCION_DOCUMENTO>
+				</E90_LATERAL>
+				
+				<E100_DATOS_CLIENTE>
+					<E100-C1_LIT_PROVEEDOR>Proveedor:</E100-C1_LIT_PROVEEDOR>
+					<E100-C2_PROVEEDOR>GRUPO FULO S.A.</E100-C2_PROVEEDOR>
+					<E100-C3_DATOS_SINIESTRO>
+						<E100-C3_DATO_SINIESTRO>
+							<E100-C3_LITERAL>Siniestro:</E100-C3_LITERAL>
+							<E100-C3_VALOR>Siniestro/Expediente</E100-C3_VALOR>
+						</E100-C3_DATO_SINIESTRO>
+						<E100-C3_DATO_SINIESTRO>
+							<E100-C3_LITERAL>Cobertura:</E100-C3_LITERAL>
+							<E100-C3_VALOR>Cobertura</E100-C3_VALOR>
+						</E100-C3_DATO_SINIESTRO>
+					</E100-C3_DATOS_SINIESTRO>
+					<E100-C4_LIT_ASEGURADO>Asegurado:</E100-C4_LIT_ASEGURADO>
+					<E100-C5_ASEGURADO>AYDEE ALEYDA RODRIGUEZ JUAREZ</E100-C5_ASEGURADO>
+					<E100-C6_DATOS>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Email:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Email</E100-C6_VALOR>
+						</E100-C6_DATO>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Celular:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Celular</E100-C6_VALOR>
+						</E100-C6_DATO>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Marca:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Marca</E100-C6_VALOR>
+						</E100-C6_DATO>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Modelo:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Modelo</E100-C6_VALOR>
+						</E100-C6_DATO>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Año:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Año</E100-C6_VALOR>
+						</E100-C6_DATO>
+						<E100-C6_DATO>
+							<E100-C6_LITERAL>Placa:</E100-C6_LITERAL>
+							<E100-C6_VALOR>Placa</E100-C6_VALOR>
+						</E100-C6_DATO>
+					</E100-C6_DATOS>
+				</E100_DATOS_CLIENTE>
+				
+		
+				<E120_TABLA_COMPRA_REPARACION>
+					<E120-C1_NUM_COLUMNAS>5</E120-C1_NUM_COLUMNAS>
+					<E120-C2_TITULO_1>Cant.</E120-C2_TITULO_1>
+					<E120-C3_TITULO_2>Descripción</E120-C3_TITULO_2>
+					<E120-C4_TITULO_3>Importe</E120-C4_TITULO_3>
+					<E120-C5_TITULO_4>Impuesto</E120-C5_TITULO_4>
+					<E120_C5_2_TITULO_5>Subtotal</E120_C5_2_TITULO_5>
+					<E120-C6_REGISTROS>
+						<E120-C6_REGISTRO>
+							<E120-C6_COL_1>1</E120-C6_COL_1>
+							<E120-C6_COL_2>Condensador</E120-C6_COL_2>
+							<E120-C6_COL_3>xx</E120-C6_COL_3>
+							<E120-C6_COL_4>496.98</E120-C6_COL_4>
+							<E120-C6_COL_5>ALGO</E120-C6_COL_5>
+						</E120-C6_REGISTRO>
+						<E120-C6_REGISTRO>
+							<E120-C6_COL_1>2</E120-C6_COL_1>
+							<E120-C6_COL_2>GUIA</E120-C6_COL_2>
+							<E120-C6_COL_3></E120-C6_COL_3>
+							<E120-C6_COL_4>118.50</E120-C6_COL_4>
+							<E120-C6_COL_5>ALGO</E120-C6_COL_5>
+						</E120-C6_REGISTRO>
+						<E120-C6_REGISTRO>
+							<E120-C6_COL_1>1</E120-C6_COL_1>
+							<E120-C6_COL_2>Manguera A</E120-C6_COL_2>
+							<E120-C6_COL_3></E120-C6_COL_3>
+							<E120-C6_COL_4>135.50</E120-C6_COL_4>
+							<E120-C6_COL_5>ALGO</E120-C6_COL_5>
+						</E120-C6_REGISTRO>
+					</E120-C6_REGISTROS>
+				</E120_TABLA_COMPRA_REPARACION>
+				
+				<E130_TABLA_TOTALES>
+					<E130-C1_TOTAL>
+						<E130-C1_LITERAL>Subtotal</E130-C1_LITERAL>
+						<E130-C1_VALOR>500.25</E130-C1_VALOR>
+					</E130-C1_TOTAL>
+					<E130-C1_TOTAL>
+						<E130-C1_LITERAL>Impuesto</E130-C1_LITERAL>
+						<E130-C1_VALOR>35.02</E130-C1_VALOR>
+					</E130-C1_TOTAL>
+					<E130-C1_TOTAL>
+						<E130-C1_LITERAL>Descuento</E130-C1_LITERAL>
+						<E130-C1_VALOR>.00</E130-C1_VALOR>
+					</E130-C1_TOTAL>
+					<E130-C1_TOTAL>
+						<E130-C1_LITERAL>Total</E130-C1_LITERAL>
+						<E130-C1_VALOR>.00</E130-C1_VALOR>
+					</E130-C1_TOTAL>
+				</E130_TABLA_TOTALES>
+
+				<E131_OBSERVACIONES>
+					<E131-C1_OBSERVACION>
+						<E131-C1_LITERAL>Observaciones:</E131-C1_LITERAL>
+						<E131-C1_VALOR>Hola holaHola holaHola holaHola holaHola holaHola holaHola hola</E131-C1_VALOR>
+					</E131-C1_OBSERVACION>
+					<E131-C1_OBSERVACION>
+						<E131-C1_LITERAL>Emitido por:</E131-C1_LITERAL>
+						<E131-C1_VALOR>Hola holaHola holaHola holaHola holaHola holaHola holaHola hola</E131-C1_VALOR>
+					</E131-C1_OBSERVACION>
+					<E131-C1_OBSERVACION>
+						<E131-C1_LITERAL>Fecha de emisión:</E131-C1_LITERAL>
+						<E131-C1_VALOR>Hola holaHola holaHola holaHola hola</E131-C1_VALOR>
+					</E131-C1_OBSERVACION>
+				</E131_OBSERVACIONES>
+				
+				
+				<E70_FIRMA>
+					<E70-C1_LIT_EMITIDO_POR>Emitido por:</E70-C1_LIT_EMITIDO_POR>
+					<E70-C2_EMITIDO_POR>xxxx</E70-C2_EMITIDO_POR>
+					<E70-C3_LIT_FECHA>Fecha de emisión:</E70-C3_LIT_FECHA>
+					<E70-C4_FECHA>Fecha de la emisión del documento</E70-C4_FECHA>
+				</E70_FIRMA>
+				
+				<!-- REGULACION - BLOQUE 80 -->
+				<E80_REGULACION>
+					<E80-C1_VENCIMIENTOS>Esta orden vence a los 30 días</E80-C1_VENCIMIENTOS>
+					<E80-C2_REGULACION>"Regulado y supervisado por la superintendencia de seguros y reaseguros de Panamá."</E80-C2_REGULACION>
+				</E80_REGULACION>
+
+				<E140_PIE>
+					<E140-C1_IMAGEN_1>HND_ICONO_OFICINA_DIGITAL_MAPFRE</E140-C1_IMAGEN_1>
+					<E140-C2_IMAGEN_1_URL>https://app.mapfre.com.hn/odm</E140-C2_IMAGEN_1_URL>
+					<E140-C3_TEXTO_MARKETING><![CDATA[<p>Gestiona tus solicitudes de forma ágil y sencilla.</p>]]></E140-C3_TEXTO_MARKETING>
+					<E140-C4_TEXTO_CONTACTO><![CDATA[<p>Contáctanos las 24 horas del día los 365 días del año.</p>]]></E140-C4_TEXTO_CONTACTO>
+					<E140-C5_IMAGEN_2>HND_ICONO_SI24</E140-C5_IMAGEN_2>
+					<E140-C6_IMAGEN_2_URL>https://www.mapfre.com.hn/si-24-2/</E140-C6_IMAGEN_2_URL>
+					<E140-C7_IMAGEN_3>HND_ICONO_TELEFONO_ROJO</E140-C7_IMAGEN_3>
+					<E140-C8_IMAGEN_3_URL>www.imagen3.com</E140-C8_IMAGEN_3_URL>
+					<E140-C9_IMAGEN_4>HND_ICONO_WHATSAPP_ROJO</E140-C9_IMAGEN_4>
+					<E140-C10_IMAGEN_4_URL>https://api.whatsapp.com/send?phone=22627373</E140-C10_IMAGEN_4_URL>
+					<E140-C11_IMAGEN_5>HND_ICONO_MOVIL_ROJO</E140-C11_IMAGEN_5>
+					<E140-C12_IMAGEN_5_URL>www.imagen5.com</E140-C12_IMAGEN_5_URL>
+					<E140-C13_TEXTO_PROTECCION><![CDATA[<p>Te recordamos que puedes consultar toda la información de protección de datos ingresando a nuestra página web: <span style="color:rgb(216,30,5);"><b>http://www.mapfre.com/hn/</b></span> seleccionando "Política de Privacidad".</p>]]></E140-C13_TEXTO_PROTECCION>
+				</E140_PIE>
+
+				<!-- <E145_PIE_IMAGENES> -->
+					<!-- <E145-C1_TEXTO><![CDATA[“Regulado y Supervisado por la Superintendencia de Seguros y Reaseguros de Panamá”]]></E145-C1_TEXTO> -->
+					<!-- <E145-C2_DIR><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>MAPFRE | PANAMÁ</b><p><b>Ave. La Rotonda y Blv. Costa del Este Edificio GMT, Ciudad de Panamá.</b></p><p><b>Telefono: (507) 378-3900</b></span></p>]]></E145-C2_DIR> -->
+					<!-- <E145-C3_LOGO_RED_SOCIAL_1>PAN_COTIZACION_INSTAGRAM</E145-C3_LOGO_RED_SOCIAL_1> -->
+					<!-- <E145-C4_TEXTO_RED_SOCIAL_1>@mapfre_pa</E145-C4_TEXTO_RED_SOCIAL_1> -->
+					<!-- <E145-C5_URL_RED_SOCIAL_1>https://www.instagram.com/mapfre.pa/</E145-C5_URL_RED_SOCIAL_1> -->
+					<!-- <E145-C6_LOGO_RED_SOCIAL_2>PAN_COTIZACION_FACEBOOK</E145-C6_LOGO_RED_SOCIAL_2> -->
+					<!-- <E145-C7_TEXTO_RED_SOCIAL_2>MAPFRE PANAMA</E145-C7_TEXTO_RED_SOCIAL_2> -->
+					<!-- <E145-C8_URL_RED_SOCIAL_2>https://www.facebook.com/MAPFRE.PA</E145-C8_URL_RED_SOCIAL_2> -->
+					<!-- <E145-C9_TEXTO_CONTACTA><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>Recuerda que estamos para atenderte a través de la OFICINA VIRTUAL en </b></span><span style="color:rgb(255,0,0);font-size:8pt"><b>www.mapfre.com.pa</b></span>]]></E145-C9_TEXTO_CONTACTA> -->
+					<!-- <E145-C10_IMAGEN_1>PAN_COTIZACION_CONSULTAS</E145-C10_IMAGEN_1> -->
+					<!-- <E145-C11_IMAGEN_1_URL>https://www.mapfre.com.pa/si-24-2/</E145-C11_IMAGEN_1_URL> -->
+					<!-- <E145-C12_IMAGEN_2>PAN_COTIZACION_TELEFONO</E145-C12_IMAGEN_2> -->
+					<!-- <E145-C13_IMAGEN_2_URL>www.mapfre.com.pa</E145-C13_IMAGEN_2_URL> -->
+					<!-- <E145-C14_LITERAL_PAGINA>Página</E145-C14_LITERAL_PAGINA> -->
+					<!-- <E145-C15_LITERAL_DE>de</E145-C15_LITERAL_DE> -->
+				<!-- </E145_PIE_IMAGENES>				 -->
+				
+				
+				
+			</ORDENES_SERVICIO>
+			
+			<LIQUIDACION_GASTOS_MEDICOS>
+			
+				<E50_CABECERA>
+					<E50-C1_LOGO>HND_LOGO_MAPFRE</E50-C1_LOGO>									
+				</E50_CABECERA>
+
+				<E60_TITULO_DOCUMENTO>
+					<E60-C1_TITULO>LIQUIDACIÓN DE SINIESTROS DE GASTOS MÉDICOS</E60-C1_TITULO>					
+				</E60_TITULO_DOCUMENTO>					
+				
+				<E70_LATERAL>
+					<E70-C1_CODIGO_DOCUMENTO>Código y</E70-C1_CODIGO_DOCUMENTO>
+					<E70-C2_DESCRIPCION_DOCUMENTO>Descripcion</E70-C2_DESCRIPCION_DOCUMENTO>
+				</E70_LATERAL>
+
+				<E150_DATOS_POLIZA>
+					<E150-C1_TITULO>DATOS DE LA PÓLIZA</E150-C1_TITULO>
+					<E150-C2_DATOS_POLIZA>						
+						<E150-C2_DATO>
+							<E150-C2_LITERAL>Póliza:</E150-C2_LITERAL>
+							<E150-C2_VALOR>No. Póliza</E150-C2_VALOR>
+						</E150-C2_DATO>
+						<E150-C2_DATO>
+							<E150-C2_LITERAL>Ramo:</E150-C2_LITERAL>
+							<E150-C2_VALOR>Descripción del Producto</E150-C2_VALOR>
+						</E150-C2_DATO>
+						<E150-C2_DATO>
+							<E150-C2_LITERAL>Sucursal:</E150-C2_LITERAL>
+							<E150-C2_VALOR>Nombre de la Sucursal</E150-C2_VALOR>
+						</E150-C2_DATO>	
+						<E150-C2_DATO>
+							<E150-C2_LITERAL>Vigencia:</E150-C2_LITERAL>
+							<E150-C2_VALOR>05/02/2024 – 04/02/2025</E150-C2_VALOR>
+						</E150-C2_DATO>							
+					</E150-C2_DATOS_POLIZA>
+					<E150-C3_DATOS_CONTRATO>
+						<E150-C3_DATO>
+							<E150-C3_LITERAL>Agente:</E150-C3_LITERAL>
+							<E150-C3_VALOR>Código_Agente Nombre Completo Agente</E150-C3_VALOR>						
+						</E150-C3_DATO>
+						<E150-C3_DATO>
+							<E150-C3_LITERAL>Contratante:</E150-C3_LITERAL>
+							<E150-C3_VALOR>Código Contratante Número_Documento Contrantate</E150-C3_VALOR>						
+						</E150-C3_DATO>
+						<E150-C3_DATO>
+							<E150-C3_LITERAL>Asegurado titular:</E150-C3_LITERAL>
+							<E150-C3_VALOR>Código_Documento Asegurado titular Nombre Completo Asegurado titular</E150-C3_VALOR>						
+						</E150-C3_DATO>
+						<E150-C3_DATO>
+							<E150-C3_LITERAL>Dependiente:</E150-C3_LITERAL>
+							<E150-C3_VALOR>Código_Documento Dependiente Nombre Completo Dependiente</E150-C3_VALOR>						
+						</E150-C3_DATO>					
+					</E150-C3_DATOS_CONTRATO>				
+					<E150-C4_DATOS_ADICIONALES>
+						<E150-C4_DATO>
+							<E150-C4_LITERAL>Certificado:</E150-C4_LITERAL>
+							<E150-C4_VALOR>No. Certificado</E150-C4_VALOR>
+						</E150-C4_DATO>
+						<E150-C4_DATO>
+							<E150-C4_LITERAL>Parentesco:</E150-C4_LITERAL>
+							<E150-C4_VALOR>Parentesco</E150-C4_VALOR>
+						</E150-C4_DATO>
+					</E150-C4_DATOS_ADICIONALES>
+				</E150_DATOS_POLIZA>
+				
+				<E160_DATOS_SINIESTRO>
+					<E160-C1_TITULO>DATOS DEL SINIESTRO</E160-C1_TITULO>
+					<E160-C2_DATOS_SINIESTRO>						
+						<E160-C2_DATO>
+							<E160-C2_LITERAL>Siniestro:</E160-C2_LITERAL>
+							<E160-C2_VALOR>No. Siniestro/Expediente</E160-C2_VALOR>
+						</E160-C2_DATO>
+						<E160-C2_DATO>
+							<E160-C2_LITERAL>Fecha de ocurrencia:</E160-C2_LITERAL>
+							<E160-C2_VALOR>04/05/2024</E160-C2_VALOR>
+						</E160-C2_DATO>
+						<E160-C2_DATO>
+							<E160-C2_LITERAL>Fecha de notificación:</E160-C2_LITERAL>
+							<E160-C2_VALOR>05/05/2024</E160-C2_VALOR>
+						</E160-C2_DATO>
+						<E160-C2_DATO>
+							<E160-C2_LITERAL>Cobertura(s) afectada(s):</E160-C2_LITERAL>
+							<E160-C2_VALOR>Cobertura Afectada;  Cobertura Afectada; …</E160-C2_VALOR>
+						</E160-C2_DATO>
+					</E160-C2_DATOS_SINIESTRO>
+					<E160-C3_DATOS_MEDICOS>
+						<E160-C3_DATO>
+							<E160-C3_LITERAL>Diagnóstico(s):</E160-C3_LITERAL>
+							<E160-C3_VALOR>Diagnóstico;  Diagnóstico;  Diagnóstico;…</E160-C3_VALOR>
+						</E160-C3_DATO>			
+					</E160-C3_DATOS_MEDICOS>					
+				</E160_DATOS_SINIESTRO>
+
+				<E161_DATOS_RIESGO>
+					<E161-C1_TITULO>DATOS DE RIESGO</E161-C1_TITULO>
+					<E161-C2_TABLA_2_COLUMNAS>
+						<E161-C2_DATO>
+							<E161-C2_LITERAL>Dirección:</E161-C2_LITERAL>
+							<E161-C2_VALOR>Dirección (País, Estado, Municipio, Localidad, Barriada, Avenida/Calle ...)</E161-C2_VALOR>
+						</E161-C2_DATO>
+					</E161-C2_TABLA_2_COLUMNAS>
+					<E161-C3_TABLA_4_COLUMNAS>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Marca:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Marca</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Color:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Color</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Modelo:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Modelo</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Placa:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Placa</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Tipo de Vehículo:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Tipo de Vehículo</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Serie/Chasis:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Serie/Chasis</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Año:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Año</E161-C3_VALOR>
+						</E161-C3_DATO>
+						<E161-C3_DATO>
+							<E161-C3_LITERAL>Motor:</E161-C3_LITERAL>
+							<E161-C3_VALOR>Motor</E161-C3_VALOR>
+						</E161-C3_DATO>
+					</E161-C3_TABLA_4_COLUMNAS>
+				</E161_DATOS_RIESGO>
+				
+				<E170_DATOS_LIQUIDACION>
+					<E170-C1_TITULO>DATOS DE LA LIQUIDACIÓN</E170-C1_TITULO>
+					<E170-C2_DATOS_BENEFICIARIO>
+						<E170-C2_DATO>
+							<E170-C2_LITERAL>Beneficiario del pago</E170-C2_LITERAL>
+							<E170-C2_VALOR>Código_Documento Beneficiario Nombre Completo Beneficiario</E170-C2_VALOR>
+						</E170-C2_DATO>			
+					</E170-C2_DATOS_BENEFICIARIO>
+					
+					<E170-C3_DATOS_LIQUIDACION>						
+						<E170-C3_DATO>
+							<E170-C3_LITERAL>Orden de pago:</E170-C3_LITERAL>
+							<E170-C3_VALOR>No. Orden de Pago</E170-C3_VALOR>
+						</E170-C3_DATO>
+						<E170-C3_DATO>
+							<E170-C3_LITERAL>Fecha de liquidación:</E170-C3_LITERAL>
+							<E170-C3_VALOR>05/08/2024</E170-C3_VALOR>
+						</E170-C3_DATO>
+						<E170-C3_DATO>
+							<E170-C3_LITERAL>Facturas procesadas:</E170-C3_LITERAL>
+							<E170-C3_VALOR>Validar si este dato existe en REEF</E170-C3_VALOR>
+						</E170-C3_DATO>
+					</E170-C3_DATOS_LIQUIDACION>										
+				</E170_DATOS_LIQUIDACION>
+				
+				<E180_TABLA_LIQUIDACION>
+					<E180-C1_TITULO>DETALLE DE LA LIQUIDACIÓN</E180-C1_TITULO>					
+					<E180-C2_TABLA_CONCEPTOS>
+						<E180-C3_TITULO_COLUMNA1>Concepto</E180-C3_TITULO_COLUMNA1>
+						<E180-C4_TITULO_COLUMNA2>Importe Reclamado</E180-C4_TITULO_COLUMNA2>
+						<E180-C5_TITULO_COLUMNA3>No Elegible</E180-C5_TITULO_COLUMNA3>
+						<E180-C6_TITULO_COLUMNA4>Elegible</E180-C6_TITULO_COLUMNA4>
+						<E180-C7_CONCEPTO>
+							<E180-C7_VALOR_COLUMNA1>Concepto 1</E180-C7_VALOR_COLUMNA1>
+							<E180-C7_VALOR_COLUMNA2>L XXX,XXX.XX1</E180-C7_VALOR_COLUMNA2>
+							<E180-C7_VALOR_COLUMNA3>L XXX,XXX.XX2</E180-C7_VALOR_COLUMNA3>
+							<E180-C7_VALOR_COLUMNA4>L XXX,XXX.XX3</E180-C7_VALOR_COLUMNA4>											
+						</E180-C7_CONCEPTO>
+						<E180-C7_CONCEPTO>
+							<E180-C7_VALOR_COLUMNA1>Concepto 2</E180-C7_VALOR_COLUMNA1>
+							<E180-C7_VALOR_COLUMNA2>L XXX,XXX.XX4</E180-C7_VALOR_COLUMNA2>
+							<E180-C7_VALOR_COLUMNA3>L XXX,XXX.XX5</E180-C7_VALOR_COLUMNA3>
+							<E180-C7_VALOR_COLUMNA4>L XXX,XXX.XX6</E180-C7_VALOR_COLUMNA4>											
+						</E180-C7_CONCEPTO>
+						<E180-C7_CONCEPTO>
+							<E180-C7_VALOR_COLUMNA1>Concepto n</E180-C7_VALOR_COLUMNA1>
+							<E180-C7_VALOR_COLUMNA2>L XXX,XXX.XX7</E180-C7_VALOR_COLUMNA2>
+							<E180-C7_VALOR_COLUMNA3>L XXX,XXX.XX8</E180-C7_VALOR_COLUMNA3>
+							<E180-C7_VALOR_COLUMNA4>L XXX,XXX.XX9</E180-C7_VALOR_COLUMNA4>											
+						</E180-C7_CONCEPTO>												
+						<E180-C8_TOTAL_COLUMNA1>Total</E180-C8_TOTAL_COLUMNA1>
+						<E180-C9_TOTAL_COLUMNA2>L XXX,XXX.XT1</E180-C9_TOTAL_COLUMNA2>
+						<E180-C10_TOTAL_COLUMNA3>L XXX,XXX.XT2</E180-C10_TOTAL_COLUMNA3>
+						<E180-C11_TOTAL_COLUMNA4>L XXX,XXX.XT3</E180-C11_TOTAL_COLUMNA4>
+					</E180-C2_TABLA_CONCEPTOS>	
+
+					<E180-C3_TABLA_CONCEPTOS_2_COLUMNAS>
+						<E180-C16_TITULO_COLUMNA1>Concepto</E180-C16_TITULO_COLUMNA1>
+						<E180-C17_TITULO_COLUMNA2>Monto</E180-C17_TITULO_COLUMNA2>
+						<E180-C18_CONCEPTO>
+							<E180-C18_VALOR_COLUMNA1>Concepto 1</E180-C18_VALOR_COLUMNA1>
+							<E180-C18_VALOR_COLUMNA2>L XXX,XXX.XX1</E180-C18_VALOR_COLUMNA2>										
+						</E180-C18_CONCEPTO>
+						<E180-C18_CONCEPTO>
+							<E180-C18_VALOR_COLUMNA1>Concepto 2</E180-C18_VALOR_COLUMNA1>
+							<E180-C18_VALOR_COLUMNA2>L XXX,XXX.XX2</E180-C18_VALOR_COLUMNA2>										
+						</E180-C18_CONCEPTO>
+						<E180-C18_CONCEPTO>
+							<E180-C18_VALOR_COLUMNA1>Concepto n</E180-C18_VALOR_COLUMNA1>
+							<E180-C18_VALOR_COLUMNA2>L XXX,XXX.XX3</E180-C18_VALOR_COLUMNA2>											
+						</E180-C18_CONCEPTO>												
+						<E180-C19_TOTAL_COLUMNA1>Total</E180-C19_TOTAL_COLUMNA1>
+						<E180-C20_TOTAL_COLUMNA2>L XXX,XXX.XT1</E180-C20_TOTAL_COLUMNA2>
+					</E180-C3_TABLA_CONCEPTOS_2_COLUMNAS>
+
+					<E180-C12_TABLA_DEDUCCIONES>
+						<E180-C12_TITULO>DEDUCCIONES</E180-C12_TITULO>	
+						<E180-C12_DEDUCCION>							
+							<E180-C12_VALOR_COLUMNA1>Deducción 1</E180-C12_VALOR_COLUMNA1>
+							<E180-C12_VALOR_COLUMNA2>L XXX,XXX.XX1</E180-C12_VALOR_COLUMNA2>
+						</E180-C12_DEDUCCION>
+						<E180-C12_DEDUCCION>							
+							<E180-C12_VALOR_COLUMNA1>Deducción 2</E180-C12_VALOR_COLUMNA1>
+							<E180-C12_VALOR_COLUMNA2>L XXX,XXX.XX2</E180-C12_VALOR_COLUMNA2>
+						</E180-C12_DEDUCCION>
+						<E180-C12_DEDUCCION>							
+							<E180-C12_VALOR_COLUMNA1>Deducción N</E180-C12_VALOR_COLUMNA1>
+							<E180-C12_VALOR_COLUMNA2>L XXX,XXX.XXN</E180-C12_VALOR_COLUMNA2>
+						</E180-C12_DEDUCCION>
+						<E180-C13_TOTAL_LITERAL>Total Deducciones</E180-C13_TOTAL_LITERAL>
+						<E180-C14_TOTAL_VALOR>L XXX,XXX.XT1</E180-C14_TOTAL_VALOR>											
+					</E180-C12_TABLA_DEDUCCIONES>
+					
+					<E180-C15_TABLA_TOTALES>
+						<E180-C15_TABLA_TOTAL>
+							<E180-C15_LITERAL>Total a Pagar</E180-C15_LITERAL>
+							<E180-C15_VALOR>L XXX,XXX.XX</E180-C15_VALOR>
+						</E180-C15_TABLA_TOTAL>
+					</E180-C15_TABLA_TOTALES>				
+					
+				</E180_TABLA_LIQUIDACION>
+
+				
+				<E190_DATOS_OBSERVACIONES>
+					<E190-C1_TITULO>OBSERVACIONES</E190-C1_TITULO>
+					<E190-C2_OBSERVACION><![CDATA[Observaciones del Tramitador ]]></E190-C2_OBSERVACION>
+				</E190_DATOS_OBSERVACIONES>
+				
+				<E200_DATOS_IMPORTANTE>					
+					<E200-C1_TEXTO><![CDATA[Importante:<ul type ="square"><li>NOTA1</li><li>NOTA2</li><li>NOTA3</li></ul>]]></E200-C1_TEXTO>							
+				</E200_DATOS_IMPORTANTE>
+
+				<E210_DESPEDIDA>
+					<E210-C1_DESPEDIDA_VALOR>Reciba un cordial saludo,</E210-C1_DESPEDIDA_VALOR>
+					<E210-C2_PAIS>HONDURAS</E210-C2_PAIS>
+				</E210_DESPEDIDA>
+				
+				<E220_FIRMA>
+					<E220-C1_FIRMA>HND_FIRMA_DIRECTOR_OPERACIONES</E220-C1_FIRMA>
+					<E220-C2_NOMBRE>Nombre_de_quien_firma</E220-C2_NOMBRE>
+					<E220-C3_CARGO>Puesto_de_quien_firma</E220-C3_CARGO>
+				</E220_FIRMA>
+				 <!-- pie Honduras -->
+				<!-- <E140_PIE>
+					<E140-C1_IMAGEN_1>HND_ICONO_OFICINA_DIGITAL_MAPFRE</E140-C1_IMAGEN_1>
+					<E140-C2_IMAGEN_1_URL>https://app.mapfre.com.hn/odm</E140-C2_IMAGEN_1_URL>
+					<E140-C3_TEXTO_MARKETING><![CDATA[<p>Gestiona tus solicitudes de forma ágil y sencilla.</p>]]></E140-C3_TEXTO_MARKETING>
+					<E140-C4_TEXTO_CONTACTO><![CDATA[<p>Contáctanos las 24 horas del día los 365 días del año.</p>]]></E140-C4_TEXTO_CONTACTO>
+					<E140-C5_IMAGEN_2>HND_ICONO_SI24</E140-C5_IMAGEN_2>
+					<E140-C6_IMAGEN_2_URL>https://www.mapfre.com.hn/si-24-2/</E140-C6_IMAGEN_2_URL>
+					<E140-C7_IMAGEN_3>HND_ICONO_TELEFONO_ROJO</E140-C7_IMAGEN_3>
+					<E140-C8_IMAGEN_3_URL>www.imagen3.com</E140-C8_IMAGEN_3_URL>
+					<E140-C9_IMAGEN_4>HND_ICONO_WHATSAPP_ROJO</E140-C9_IMAGEN_4>
+					<E140-C10_IMAGEN_4_URL>https://api.whatsapp.com/send?phone=22627373</E140-C10_IMAGEN_4_URL>
+					<E140-C11_IMAGEN_5>HND_ICONO_MOVIL_ROJO</E140-C11_IMAGEN_5>
+					<E140-C12_IMAGEN_5_URL>www.imagen5.com</E140-C12_IMAGEN_5_URL>
+					<E140-C13_TEXTO_PROTECCION><![CDATA[<p>Te recordamos que puedes consultar toda la información de protección de datos ingresando a nuestra página web: <span style="color:rgb(216,30,5);"><b>http://www.mapfre.com/hn/</b></span> seleccionando "Política de Privacidad".</p>]]></E140-C13_TEXTO_PROTECCION>
+				</E140_PIE> -->
+				<!-- pie panama -->
+				<E225_PIE_IMAGENES>
+					<E225-C1_TEXTO><![CDATA[“Regulado y Supervisado por la Superintendencia de Seguros y Reaseguros de Panamá”]]></E225-C1_TEXTO>
+					<E225-C2_DIR><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>MAPFRE | PANAMÁ</b><p><b>Ave. La Rotonda y Blv. Costa del Este Edificio GMT, Ciudad de Panamá.</b></p><p><b>Telefono: (507) 378-3900</b></span></p>]]></E225-C2_DIR>
+					<E225-C3_LOGO_RED_SOCIAL_1>PAN_COTIZACION_INSTAGRAM</E225-C3_LOGO_RED_SOCIAL_1>
+					<E225-C4_TEXTO_RED_SOCIAL_1>@mapfre_pa</E225-C4_TEXTO_RED_SOCIAL_1>
+					<E225-C5_URL_RED_SOCIAL_1>https://www.instagram.com/mapfre.pa/</E225-C5_URL_RED_SOCIAL_1>
+					<E225-C6_LOGO_RED_SOCIAL_2>PAN_COTIZACION_FACEBOOK</E225-C6_LOGO_RED_SOCIAL_2>
+					<E225-C7_TEXTO_RED_SOCIAL_2>MAPFRE PANAMA</E225-C7_TEXTO_RED_SOCIAL_2>
+					<E225-C8_URL_RED_SOCIAL_2>https://www.facebook.com/MAPFRE.PA</E225-C8_URL_RED_SOCIAL_2>
+					<E225-C9_TEXTO_CONTACTA><![CDATA[<span style="color:rgb(137,150,154);font-size:8pt"><b>Recuerda que estamos para atenderte a través de la OFICINA VIRTUAL en </b></span><span style="color:rgb(255,0,0);font-size:8pt"><b>www.mapfre.com.pa</b></span>]]></E225-C9_TEXTO_CONTACTA>
+					<E225-C10_IMAGEN_1>PAN_COTIZACION_CONSULTAS</E225-C10_IMAGEN_1>
+					<E225-C11_IMAGEN_1_URL>https://www.mapfre.com.pa/si-24-2/</E225-C11_IMAGEN_1_URL>
+					<E225-C12_IMAGEN_2>PAN_COTIZACION_TELEFONO</E225-C12_IMAGEN_2>
+					<E225-C13_IMAGEN_2_URL>www.mapfre.com.pa</E225-C13_IMAGEN_2_URL>
+					<E225-C14_LITERAL_PAGINA>Página</E225-C14_LITERAL_PAGINA>
+					<E225-C15_LITERAL_DE>de</E225-C15_LITERAL_DE>
+				</E225_PIE_IMAGENES>				
+				
+				
+			</LIQUIDACION_GASTOS_MEDICOS>
+			
+			</COMPOSICION>
+	</ROOT>
